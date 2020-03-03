@@ -6,8 +6,8 @@ const ip = 'localhost';
 const server = http.createServer((req, res) => {
   const responses = []
   responses['/'] = '<h1>Home</h1>'
+  responses['/bio'] = '<h1>Bio</h1>'
   responses['/inscreva-se'] = '<h1>Inscreva-se</h1>'
-  responses['/bio'] = '<h1>Local</h1>'
   responses['/contato'] = '<h1>Contato</h1>'
   responses['/naoExiste'] = '<h1>URL sem resposta definida!</h1>'
 
