@@ -1,0 +1,13 @@
+{
+  "name": "node_http",
+  "version": "1.0.0",
+  "description": "servidor http node",
+  "main": "index.js",
+  "author": "Remulo Costa",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
